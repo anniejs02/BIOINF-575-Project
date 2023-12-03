@@ -1,0 +1,3873 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<MINiML
+   xmlns="http://www.ncbi.nlm.nih.gov/geo/info/MINiML"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.ncbi.nlm.nih.gov/geo/info/MINiML http://www.ncbi.nlm.nih.gov/geo/info/MINiML.xsd"
+   version="0.5.0" >
+
+  <Contributor iid="contrib1">
+    <Person><First>Ruprecht</First><Last>Kuner</Last></Person>
+    <Laboratory>Unit Cancer Genome Research</Laboratory>
+    <Department>Molecular Genetics</Department>
+    <Organization>German Cancer Research Center and National Center of Tumor Diseases</Organization>
+    <Address>
+      <Line>Im Neuenheimer Feld 460</Line>
+      <City>Heidelberg</City>
+      <Zip-Code>69120</Zip-Code>
+      <Country>Germany</Country>
+    </Address>
+  </Contributor>
+
+  <Contributor iid="contrib2">
+    <Organization></Organization>
+    <Email>geo@ncbi.nlm.nih.gov, support@affymetrix.com</Email>
+    <Phone>888-362-2447</Phone>
+    <Organization>Affymetrix, Inc.</Organization>
+    <Address>
+      <City>Santa Clara</City>
+      <State>CA</State>
+      <Zip-Code>95051</Zip-Code>
+      <Country>USA</Country>
+    </Address>
+    <Web-Link>http://www.affymetrix.com/index.affx</Web-Link>
+  </Contributor>
+
+  <Contributor iid="contrib3">
+    <Person><First>Holger</First><Last>Sueltmann</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib4">
+    <Person><First>Markus</First><Last>Ruschhaupt</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib5">
+    <Person><First>Andreas</First><Last>Buness</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib6">
+    <Person><First>Annemarie</First><Last>Poustka</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib7">
+    <Person><First>Hans</First><Last>Hoffmann</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib8">
+    <Person><First>Thomas</First><Last>Muley</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib9">
+    <Person><First>Michael</First><Last>Meister</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib10">
+    <Person><First>Phillipp</First><Last>Schnabel</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib11">
+    <Person><First>Arne</First><Last>Warth</Last></Person>
+  </Contributor>
+
+  <Database iid="GEO">
+    <Name>Gene Expression Omnibus (GEO)</Name>
+    <Public-ID>GEO</Public-ID>
+    <Organization>NCBI NLM NIH</Organization>
+    <Web-Link>http://www.ncbi.nlm.nih.gov/geo</Web-Link>
+    <Email>geo@ncbi.nlm.nih.gov</Email>
+  </Database>
+
+  <Platform iid="GPL570">
+    <Status database="GEO">
+      <Submission-Date>2003-11-07</Submission-Date>
+      <Release-Date>2003-11-07</Release-Date>
+      <Last-Update-Date>2020-12-14</Last-Update-Date>
+    </Status>
+    <Title>[HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array</Title>
+    <Accession database="GEO">GPL570</Accession>
+    <Technology>in situ oligonucleotide</Technology>
+    <Distribution>commercial</Distribution>
+    <Organism taxid="9606">Homo sapiens</Organism>
+    <Manufacturer>Affymetrix</Manufacturer>
+    <Manufacture-Protocol>
+see manufacturer's web site
+
+Complete coverage of the Human Genome U133 Set plus 6,500 additional genes for analysis of over 47,000 transcripts
+All probe sets represented on the GeneChip Human Genome U133 Set are identically replicated on the GeneChip Human Genome U133 Plus 2.0 Array. The sequences from which these probe sets were derived were selected from GenBank®, dbEST, and RefSeq. The sequence clusters were created from the UniGene database (Build 133, April 20, 2001) and then refined by analysis and comparison with a number of other publicly available databases, including the Washington University EST trace repository and the University of California, Santa Cruz Golden-Path human genome database (April 2001 release).
+In addition, there are 9,921 new probe sets representing approximately 6,500 new genes. These gene sequences were selected from GenBank, dbEST, and RefSeq. Sequence clusters were created from the UniGene database (Build 159, January 25, 2003) and refined by analysis and comparison with a number of other publicly available databases, including the Washington University EST trace repository and the NCBI human genome assembly (Build 31).
+
+    </Manufacture-Protocol>
+    <Description>
+Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html
+
+June 03, 2009: annotation table updated with netaffx build 28
+June 06, 2012: annotation table updated with netaffx build 32
+June 23, 2016: annotation table updated with netaffx build 35
+    </Description>
+    <Web-Link>http://www.affymetrix.com/support/technical/byproduct.affx?product=hg-u133-plus</Web-Link>
+    <Web-Link>http://www.affymetrix.com/analysis/index.affx</Web-Link>
+    <Relation type="Alternative to" target="GPL4454" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL4866" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL5760" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL6671" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL6791" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL6879" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL7567" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8019" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8542" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8715" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8712" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9102" comment="Probe Level Version" />
+    <Relation type="Alternative to" target="GPL9099" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9101" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9324" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9486" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9987" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10175" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10335" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10371" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10526" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10881" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10925" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL11084" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL11433" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL11670" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL13232" comment="Alternative CDF [HGU133Plus2_Hs_REFSEQ, Brainarray version 13.0.0]" />
+    <Relation type="Alternative to" target="GPL13303" comment="Alternative CDF." />
+    <Relation type="Alternative to" target="GPL13916" comment="[Brainarray ENSG Version 14.1]" />
+    <Relation type="Alternative to" target="GPL14837" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL14877" comment="[Alternative CDF]" />
+    <Relation type="Alternative to" target="GPL15394" comment="Alternative CDF [HGU133Plus2_Hs_REFSEQ, Brainarray version 14.0]" />
+    <Relation type="Alternative to" target="GPL6732" comment="Alternative CDF [HGU133Plus2_Hs_REFSEQ, Brainarray version 7]" />
+    <Relation type="Alternative to" target="GPL15445" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL16066" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL16100" comment="Alternative CDF [GATExplorer_Ensembl v57]" />
+    <Relation type="Alternative to" target="GPL16268" comment="Alternative CDF [Brainarray ENSG Version 16]" />
+    <Relation type="Alternative to" target="GPL16273" comment="Alternative CDF [Brainarray ENSG Version 15]" />
+    <Relation type="Alternative to" target="GPL16311" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG Brainarray version 14.0.0]" />
+    <Relation type="Alternative to" target="GPL16356" comment="Alternative CDF [Brainarray HGU133Plus2_Hs_ENTREZG 15.0.0]" />
+    <Relation type="Alternative to" target="GPL16372" comment="Alternative CDF [Brainarray HGU133Plus2_Hs_UG v.13]" />
+    <Relation type="Alternative to" target="GPL17392" comment="Alternative CDF [HGU133Plus2_Hs_ENSG, Brainarray 17.1]" />
+    <Relation type="Alternative to" target="GPL17394" comment="Alternative CDF [HGU133Plus2_Hs_ENSG, Brainarray 13.0]" />
+    <Relation type="Alternative to" target="GPL17810" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 16]" />
+    <Relation type="Alternative to" target="GPL17811" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 17]" />
+    <Relation type="Alternative to" target="GPL17996" comment="Alternative CDF:HGU133Plus2_Hs_ENTREZG.cdf version 15.1.0" />
+    <Relation type="Alternative to" target="GPL18121" comment="custom CDF" />
+    <Relation type="Alternative to: GPL18756 (Alternative CDF [CDF" target="HGU133Plus2_Hs_ENTREZG_14.1.0])" />
+    <Relation type="Alternative to" target="GPL18850" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL18478" comment="Alternative CDF [Hs_ENTREZG_V13]" />
+    <Relation type="Alternative to" target="GPL19109" comment="Alternative CDF [Brainarray HGU133Plus2_Hs_ENTREZG_v18]" />
+    <Relation type="Alternative to" target="GPL19883" comment="Alternative CDF [Broad GenePattern]" />
+    <Relation type="Alternative to" target="GPL19918" comment="Gene symbol version, 10K" />
+    <Relation type="Alternative to" target="GPL20182" comment="Gene Symbol Version" />
+    <Relation type="Alternative to" target="GPL22321" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 20]" />
+    <Relation type="Alternative to" target="GPL22945" comment="alternative" />
+    <Relation type="Alternative to" target="GPL23270" comment="(Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 21]" />
+    <Relation type="Alternative to" target="GPL23432" comment="alternative CDF [HGU133Plus2_Hs_ENSG, Brainarray version 18.0.0]" />
+    <Relation type="Alternative to" target="GPL25740" comment="alternative" />
+    <Relation type="Alternative to" target="GPL28718" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 23]" />
+    <Relation type="Alternative to" target="GPL29499" comment="Alternative CDF" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID</Name>
+        <Description>Affymetrix Probe Set ID </Description>
+        <Link-Prefix>https://www.affymetrix.com/LinkServlet?array=U133PLUS&amp;probeset=</Link-Prefix>
+      </Column>
+      <Column position="2">
+        <Name>GB_ACC</Name>
+        <Description>GenBank Accession Number </Description>
+        <Link-Prefix>http://www.ncbi.nlm.nih.gov/nuccore/?term=</Link-Prefix>
+      </Column>
+      <Column position="3">
+        <Name>SPOT_ID</Name>
+        <Description>identifies controls</Description>
+      </Column>
+      <Column position="4">
+        <Name>Species Scientific Name</Name>
+        <Description>The genus and species of the organism represented by the probe set.</Description>
+      </Column>
+      <Column position="5">
+        <Name>Annotation Date</Name>
+        <Description>The date that the annotations for this probe array were last updated. It will generally be earlier than the date when the annotations were posted on the Affymetrix web site.</Description>
+      </Column>
+      <Column position="6">
+        <Name>Sequence Type</Name>
+      </Column>
+      <Column position="7">
+        <Name>Sequence Source</Name>
+        <Description>The database from which the sequence used to design this probe set was taken.</Description>
+      </Column>
+      <Column position="8">
+        <Name>Target Description</Name>
+      </Column>
+      <Column position="9">
+        <Name>Representative Public ID</Name>
+        <Description>The accession number of a representative sequence. Note that for consensus-based probe sets, the representative sequence is only one of several sequences (sequence sub-clusters) used to build the consensus sequence and it is not directly used to derive the probe sequences. The representative sequence is chosen during array design as a sequence that is best associated with the transcribed region being interrogated by the probe set. Refer to the &quot;Sequence Source&quot; field to determine the database used.</Description>
+      </Column>
+      <Column position="10">
+        <Name>Gene Title</Name>
+        <Description>Title of Gene represented by the probe set.</Description>
+      </Column>
+      <Column position="11">
+        <Name>Gene Symbol</Name>
+        <Description>A gene symbol, when one is available (from UniGene).</Description>
+      </Column>
+      <Column position="12">
+        <Name>ENTREZ_GENE_ID</Name>
+        <Description>Entrez Gene Database UID  </Description>
+        <Link-Prefix>http://www.ncbi.nlm.nih.gov/gene/</Link-Prefix>
+        <Link-Delimiter> /// </Link-Delimiter>
+      </Column>
+      <Column position="13">
+        <Name>RefSeq Transcript ID</Name>
+        <Description>References to multiple sequences in RefSeq. The field contains the ID and Description for each entry, and there can be multiple entries per ProbeSet.</Description>
+      </Column>
+      <Column position="14">
+        <Name>Gene Ontology Biological Process</Name>
+        <Description>Gene Ontology Consortium Biological Process derived from LocusLink.  Each annotation consists of three parts: &quot;Accession Number // Description // Evidence&quot;. The description corresponds directly to the GO ID. The evidence can be &quot;direct&quot;, or &quot;extended&quot;.</Description>
+      </Column>
+      <Column position="15">
+        <Name>Gene Ontology Cellular Component</Name>
+        <Description>Gene Ontology Consortium Cellular Component derived from LocusLink.  Each annotation consists of three parts: &quot;Accession Number // Description // Evidence&quot;. The description corresponds directly to the GO ID. The evidence can be &quot;direct&quot;, or &quot;extended&quot;.</Description>
+      </Column>
+      <Column position="16">
+        <Name>Gene Ontology Molecular Function</Name>
+        <Description>Gene Ontology Consortium Molecular Function derived from LocusLink.  Each annotation consists of three parts: &quot;Accession Number // Description // Evidence&quot;. The description corresponds directly to the GO ID. The evidence can be &quot;direct&quot;, or &quot;extended&quot;.</Description>
+      </Column>
+    <External-Data rows="54675">
+GPL570-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Platform>
+
+  <Sample iid="GSM258551">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_10</Title>
+    <Accession database="GEO">GSM258551</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 10.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258551/suppl/GSM258551.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258551-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258552">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_16</Title>
+    <Accession database="GEO">GSM258552</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 16.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258552/suppl/GSM258552.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258552-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258553">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_SCC_22</Title>
+    <Accession database="GEO">GSM258553</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+squamous cell carcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 22.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258553/suppl/GSM258553.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258553-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258554">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_24</Title>
+    <Accession database="GEO">GSM258554</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 24.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258554/suppl/GSM258554.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258554-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258555">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_SCC_25</Title>
+    <Accession database="GEO">GSM258555</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+squamous cell carcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 25.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258555/suppl/GSM258555.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258555-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258556">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_SCC_30</Title>
+    <Accession database="GEO">GSM258556</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+squamous cell carcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 30.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258556/suppl/GSM258556.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258556-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258557">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_SCC_37</Title>
+    <Accession database="GEO">GSM258557</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+squamous cell carcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 37.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258557/suppl/GSM258557.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258557-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258558">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_40</Title>
+    <Accession database="GEO">GSM258558</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 40.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258558/suppl/GSM258558.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258558-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258559">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_49</Title>
+    <Accession database="GEO">GSM258559</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 49.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258559/suppl/GSM258559.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258559-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258560">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_51</Title>
+    <Accession database="GEO">GSM258560</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 51.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258560/suppl/GSM258560.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258560-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258561">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_53</Title>
+    <Accession database="GEO">GSM258561</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 53.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258561/suppl/GSM258561.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258561-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258562">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_SCC_55</Title>
+    <Accession database="GEO">GSM258562</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+squamous cell carcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 55.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258562/suppl/GSM258562.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258562-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258563">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_SCC_65</Title>
+    <Accession database="GEO">GSM258563</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+squamous cell carcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 65.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258563/suppl/GSM258563.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258563-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258564">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_70</Title>
+    <Accession database="GEO">GSM258564</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 70.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258564/suppl/GSM258564.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258564-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258565">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_SCC_75</Title>
+    <Accession database="GEO">GSM258565</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+squamous cell carcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 75.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258565/suppl/GSM258565.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258565-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258566">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_SCC_77</Title>
+    <Accession database="GEO">GSM258566</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+squamous cell carcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 77.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258566/suppl/GSM258566.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258566-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258567">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_84</Title>
+    <Accession database="GEO">GSM258567</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 84.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258567/suppl/GSM258567.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258567-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258568">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_88</Title>
+    <Accession database="GEO">GSM258568</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 88.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258568/suppl/GSM258568.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258568-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258569">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_89</Title>
+    <Accession database="GEO">GSM258569</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 89.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258569/suppl/GSM258569.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258569-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258570">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_SCC_95</Title>
+    <Accession database="GEO">GSM258570</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+squamous cell carcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 95.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258570/suppl/GSM258570.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258570-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258571">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_97</Title>
+    <Accession database="GEO">GSM258571</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 97.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258571/suppl/GSM258571.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258571-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258572">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_113</Title>
+    <Accession database="GEO">GSM258572</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 113.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258572/suppl/GSM258572.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258572-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258573">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_136</Title>
+    <Accession database="GEO">GSM258573</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 136.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258573/suppl/GSM258573.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258573-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258574">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_137</Title>
+    <Accession database="GEO">GSM258574</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 137.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258574/suppl/GSM258574.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258574-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258575">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_147</Title>
+    <Accession database="GEO">GSM258575</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 147.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258575/suppl/GSM258575.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258575-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258576">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_148</Title>
+    <Accession database="GEO">GSM258576</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 148.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258576/suppl/GSM258576.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258576-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258577">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_161</Title>
+    <Accession database="GEO">GSM258577</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 161.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258577/suppl/GSM258577.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258577-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258578">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_SCC_165</Title>
+    <Accession database="GEO">GSM258578</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+squamous cell carcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 165.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258578/suppl/GSM258578.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258578-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258579">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_169</Title>
+    <Accession database="GEO">GSM258579</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 169.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258579/suppl/GSM258579.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258579-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258580">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_SCC_188</Title>
+    <Accession database="GEO">GSM258580</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+squamous cell carcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 188.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258580/suppl/GSM258580.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258580-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258581">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_202</Title>
+    <Accession database="GEO">GSM258581</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 202.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258581/suppl/GSM258581.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258581-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258582">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_210</Title>
+    <Accession database="GEO">GSM258582</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 210.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258582/suppl/GSM258582.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258582-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258583">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_SCC_215</Title>
+    <Accession database="GEO">GSM258583</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+squamous cell carcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 215.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258583/suppl/GSM258583.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258583-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258584">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_233</Title>
+    <Accession database="GEO">GSM258584</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 233.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258584/suppl/GSM258584.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258584-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258585">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_SCC_248</Title>
+    <Accession database="GEO">GSM258585</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+squamous cell carcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 248.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258585/suppl/GSM258585.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258585-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258586">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_271</Title>
+    <Accession database="GEO">GSM258586</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 271.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258586/suppl/GSM258586.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258586-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258587">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_273</Title>
+    <Accession database="GEO">GSM258587</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 273.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258587/suppl/GSM258587.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258587-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258588">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_276</Title>
+    <Accession database="GEO">GSM258588</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 276.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258588/suppl/GSM258588.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258588-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258589">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_282</Title>
+    <Accession database="GEO">GSM258589</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 282.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258589/suppl/GSM258589.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258589-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258590">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_SCC_301</Title>
+    <Accession database="GEO">GSM258590</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+squamous cell carcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 301.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258590/suppl/GSM258590.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258590-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258591">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_331</Title>
+    <Accession database="GEO">GSM258591</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 331.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258591/suppl/GSM258591.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258591-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258592">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_334</Title>
+    <Accession database="GEO">GSM258592</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 334.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258592/suppl/GSM258592.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258592-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258593">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_342</Title>
+    <Accession database="GEO">GSM258593</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 342.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258593/suppl/GSM258593.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258593-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258594">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_SCC_347</Title>
+    <Accession database="GEO">GSM258594</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+squamous cell carcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 347.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258594/suppl/GSM258594.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258594-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258595">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_348</Title>
+    <Accession database="GEO">GSM258595</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 348.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258595/suppl/GSM258595.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258595-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258596">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_SCC_364</Title>
+    <Accession database="GEO">GSM258596</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+squamous cell carcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 364.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258596/suppl/GSM258596.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258596-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258597">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_368</Title>
+    <Accession database="GEO">GSM258597</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 368.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258597/suppl/GSM258597.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258597-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258598">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_378</Title>
+    <Accession database="GEO">GSM258598</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 378.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258598/suppl/GSM258598.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258598-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258599">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_SCC_390</Title>
+    <Accession database="GEO">GSM258599</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+squamous cell carcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 390.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258599/suppl/GSM258599.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258599-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258600">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_397</Title>
+    <Accession database="GEO">GSM258600</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 397.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258600/suppl/GSM258600.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258600-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258601">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_400</Title>
+    <Accession database="GEO">GSM258601</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 400.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258601/suppl/GSM258601.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258601-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258602">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_402</Title>
+    <Accession database="GEO">GSM258602</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 402.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258602/suppl/GSM258602.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258602-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258603">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_SCC_412</Title>
+    <Accession database="GEO">GSM258603</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+squamous cell carcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 412.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258603/suppl/GSM258603.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258603-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258604">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_426</Title>
+    <Accession database="GEO">GSM258604</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 426.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258604/suppl/GSM258604.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258604-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258605">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_434</Title>
+    <Accession database="GEO">GSM258605</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 434.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258605/suppl/GSM258605.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258605-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258606">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_445</Title>
+    <Accession database="GEO">GSM258606</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 445.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258606/suppl/GSM258606.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258606-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258607">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_489</Title>
+    <Accession database="GEO">GSM258607</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 489.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258607/suppl/GSM258607.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258607-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM258608">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>NSCLC_AC_492</Title>
+    <Accession database="GEO">GSM258608</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>human non-small cell lung cancer tumor tissue</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="disease state">
+adenocarcinoma
+      </Characteristics>
+      <Treatment-Protocol>
+tumor tissue samples from surgically treated patients were collected intraoperatively, snap-frozen and stored at -80 C. All samples underwent a careful analysis of the histopathology, estimation of tumor and stromal content and subsequent macro-dissection of the tumor regions before enrollment into the microarray experiments.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+total RNA was extracted using the RNeasy Kit (Qiagen, Hilden, Germany) according to the manufacturersÆ instructions.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Affymetrix ROC technical manual 701021 Rev.5).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip« U133 Plus 2.0 in the Affymetrix GeneChip« Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix GeneChip« Fluidics Station 450.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Hybridized microarrays were scanned with the Affymetrix GeneChip« Scanner 3000.
+    </Scan-Protocol>
+    <Description>
+Gene expression data from human non-small cell lung cancer tumor tissue 492.
+    </Description>
+    <Data-Processing>
+Bioconductor [Gentleman et al. Genome Biology 2004] and R language [Ihaka and Gentleman. Journal of Computational and Graphical Statistics 1996] were used for pre-processing of the 58 hybridizations. The microarray data was normalized by the gcRMA method [Wu et al. Journal of the American Statistical Association 2004].
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258608/suppl/GSM258608.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE60486" />
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>gcRMA-calculated Signal intensity</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM258608-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Series iid="GSE10245">
+    <Status database="GEO">
+      <Submission-Date>2008-01-23</Submission-Date>
+      <Release-Date>2009-10-01</Release-Date>
+      <Last-Update-Date>2019-03-25</Last-Update-Date>
+    </Status>
+    <Title>Gene expression differences between adenocarcinoma and squamous cell carcinoma in human NSCLC</Title>
+    <Accession database="GEO">GSE10245</Accession>
+    <Pubmed-ID>18486272</Pubmed-ID>
+    <Summary>
+Non-small cell lung cancer (NSCLC) can be classified into the major subtypes adenocarcinoma (AC) and squamous cell carcinoma (SCC) subtypes. Although explicit molecular, histological and clinical characteristics have been reported for both subtypes, no specific therapy exists so far. However, the characterization of suitable molecular targets holds great promises to develop novel therapies in NSCLC. In the present study, global gene expression profiling of 58 human high grade NSCLC specimens revealed large transcriptomic differences between AC and SCC subtypes: More than 1.700 genes were found to be differentially expressed.
+Keywords: disease subtype analysis
+    </Summary>
+    <Overall-Design>
+The NSCLC patient collective was composed of the histological subtype adenocarcinoma (n=40) and squamous cell carcinoma (n=18). We subjected gene expression profiles of 40 AC and 18 SCC samples into further analysis. Unsupervised hierarchical clustering of all 58 NSCLC tumors using the 500 most variably expressed transcripts revealed two different clusters, which were strongly associated with the histological subtypes AC and SCC of NSCLC. Our result indicated that the major impact on global transcriptional changes was due to the NSCLC histology.
+    </Overall-Design>
+    <Type>Expression profiling by array</Type>
+    <Contributor-Ref ref="contrib1" position="1" />
+    <Contributor-Ref ref="contrib3" position="2" />
+    <Contributor-Ref ref="contrib4" position="3" />
+    <Contributor-Ref ref="contrib5" position="4" />
+    <Contributor-Ref ref="contrib6" position="5" />
+    <Contributor-Ref ref="contrib7" position="6" />
+    <Contributor-Ref ref="contrib8" position="7" />
+    <Contributor-Ref ref="contrib9" position="8" />
+    <Contributor-Ref ref="contrib10" position="9" />
+    <Contributor-Ref ref="contrib11" position="10" />
+    <Contact-Ref ref="contrib1" />
+    <Sample-Ref ref="GSM258551" />
+    <Sample-Ref ref="GSM258552" />
+    <Sample-Ref ref="GSM258553" />
+    <Sample-Ref ref="GSM258554" />
+    <Sample-Ref ref="GSM258555" />
+    <Sample-Ref ref="GSM258556" />
+    <Sample-Ref ref="GSM258557" />
+    <Sample-Ref ref="GSM258558" />
+    <Sample-Ref ref="GSM258559" />
+    <Sample-Ref ref="GSM258560" />
+    <Sample-Ref ref="GSM258561" />
+    <Sample-Ref ref="GSM258562" />
+    <Sample-Ref ref="GSM258563" />
+    <Sample-Ref ref="GSM258564" />
+    <Sample-Ref ref="GSM258565" />
+    <Sample-Ref ref="GSM258566" />
+    <Sample-Ref ref="GSM258567" />
+    <Sample-Ref ref="GSM258568" />
+    <Sample-Ref ref="GSM258569" />
+    <Sample-Ref ref="GSM258570" />
+    <Sample-Ref ref="GSM258571" />
+    <Sample-Ref ref="GSM258572" />
+    <Sample-Ref ref="GSM258573" />
+    <Sample-Ref ref="GSM258574" />
+    <Sample-Ref ref="GSM258575" />
+    <Sample-Ref ref="GSM258576" />
+    <Sample-Ref ref="GSM258577" />
+    <Sample-Ref ref="GSM258578" />
+    <Sample-Ref ref="GSM258579" />
+    <Sample-Ref ref="GSM258580" />
+    <Sample-Ref ref="GSM258581" />
+    <Sample-Ref ref="GSM258582" />
+    <Sample-Ref ref="GSM258583" />
+    <Sample-Ref ref="GSM258584" />
+    <Sample-Ref ref="GSM258585" />
+    <Sample-Ref ref="GSM258586" />
+    <Sample-Ref ref="GSM258587" />
+    <Sample-Ref ref="GSM258588" />
+    <Sample-Ref ref="GSM258589" />
+    <Sample-Ref ref="GSM258590" />
+    <Sample-Ref ref="GSM258591" />
+    <Sample-Ref ref="GSM258592" />
+    <Sample-Ref ref="GSM258593" />
+    <Sample-Ref ref="GSM258594" />
+    <Sample-Ref ref="GSM258595" />
+    <Sample-Ref ref="GSM258596" />
+    <Sample-Ref ref="GSM258597" />
+    <Sample-Ref ref="GSM258598" />
+    <Sample-Ref ref="GSM258599" />
+    <Sample-Ref ref="GSM258600" />
+    <Sample-Ref ref="GSM258601" />
+    <Sample-Ref ref="GSM258602" />
+    <Sample-Ref ref="GSM258603" />
+    <Sample-Ref ref="GSM258604" />
+    <Sample-Ref ref="GSM258605" />
+    <Sample-Ref ref="GSM258606" />
+    <Sample-Ref ref="GSM258607" />
+    <Sample-Ref ref="GSM258608" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE10nnn/GSE10245/suppl/GSE10245_RAW.tar
+    </Supplementary-Data>
+    <Relation type="BioProject" target="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA108429" />
+  </Series>
+
+</MINiML>
