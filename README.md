@@ -33,6 +33,4 @@ It can be retrieved programmatically from the objects created using GEOparse fun
 
 (iii) compute the model accuracy built at point (ii) on the other half of the data (test data)
 
- 
-
-8. As a team decide on a new feature to implement that can answer a relevant biological question using these data and implement the feature
+8. What are the top differentailly expressed genes in two types of tumor?
